@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Forests</title>
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body id="body_FC">
+        <center>
+            <h1 id="pickC"> Pick a Continent </h1>
+            <div><!--continents-->
+                 <img class="img_Continents"src="Asia.jpeg" onclick="navigate_asian_forests()">
+                  <img class="img_Continents" src="Europe.jpeg" onclick="navigate_europe_forests()"> 
+                  <img class="img_Continents" src="North America.jpeg" onclick="navigate_northA_forests()">
+                </div> 
+                <div><!--continents-->
+                    <img class="img_Continents"src="South America.jpeg" onclick="navigate_southA_forests()" >
+                    <img class="img_Continents" src="Australia.jpeg" onclick="navigate_Australia_forests()"> 
+                    <img class="img_Continents" src="Africa.jpeg" onclick="navigate_Africa_forests()">
+                </div>
+                <div><!--home button-->
+                    <button class="btn btn-danger" id="home_btn" onclick="navigate_home()"> Home </button>
+                </div>
+        </center>
+
+    </body>
+</html>
